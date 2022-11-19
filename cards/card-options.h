@@ -13,6 +13,10 @@ namespace card {
     {
     public:
     };
+    class DealOptions
+    {
+    public:
+    }
 }
 
 #endif

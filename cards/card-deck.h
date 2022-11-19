@@ -3,6 +3,8 @@
 
 #ifndef CARD_DECK_H
 #define CARD_DECK_H
+
+#include <list>
 #include "card.h"
 #include "card-options.h"
 
@@ -10,7 +12,7 @@ namespace card {
     class CardDeck
     {
     private:
-        Card[52] cards;
+	std::list<Card> cards;
     public:
         int count();
         Card pop();
