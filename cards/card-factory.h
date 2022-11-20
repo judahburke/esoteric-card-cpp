@@ -5,7 +5,7 @@
 #define CARD_FACTORY_H
 #include "card-deck.h"
 
-namespace card {
+namespace cards {
     class CardFactory
     {
     public:

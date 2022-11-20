@@ -4,7 +4,7 @@
 #ifndef CARD_OPTIONS_H
 #define CARD_OPTIONS_H
 
-namespace card {
+namespace cards {
     class CutOptions
     {
     public:

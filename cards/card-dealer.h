@@ -6,7 +6,7 @@
 #include "card.h"
 #include "card-options.h"
 
-namespace card {
+namespace cards {
 	class CardDealer {
 	public:
 		Card[] deal(CardDeck, DealOptions);

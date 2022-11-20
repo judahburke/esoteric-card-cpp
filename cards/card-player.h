@@ -6,15 +6,18 @@
 
 #include <string>
 
-namespace card {
+namespace cards {
     class CardPlayer
     {
     private:
         string n;
         string id;
     public:
+	CardPlayer();
+	CardPlayer(string name);
         string name();
-        int compare(const Card& other);
+        int compare(const CardPlayer& other);
+	bool operator==(const CardPlayer& other);
     };
 }
 

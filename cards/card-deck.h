@@ -8,7 +8,7 @@
 #include "card.h"
 #include "card-options.h"
 
-namespace card {
+namespace cards {
     class CardDeck
     {
     private:
