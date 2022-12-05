@@ -1,5 +1,5 @@
 #include "card-rank.h"
-using namespace cards;
+using namespace card;
 
 CardRank::CardRank(CardRankKey key, int value) {
     k = key;

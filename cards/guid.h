@@ -4,7 +4,7 @@
 #include <random>
 #include <sstream>
 
-namespace cards
+namespace uuid
 {
 	static std::random_device rd;
 	static std::mt19937 gen(rd());

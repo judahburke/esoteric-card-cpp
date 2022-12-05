@@ -6,7 +6,7 @@
 
 #include <string>
 
-namespace cards {
+namespace card {
     class CardPlayer
     {
     private:

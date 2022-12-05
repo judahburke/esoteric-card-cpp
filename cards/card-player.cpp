@@ -1,6 +1,6 @@
 #include "card-player.h"
 
-using namespace cards;
+using namespace card;
 
 CardPlayer::CardPlayer() {
 	n = "Esoteric Player";

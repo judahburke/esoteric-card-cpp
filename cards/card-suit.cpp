@@ -1,5 +1,5 @@
 #include "card-suit.h"
-using namespace cards;
+using namespace card;
 
 CardSuit::CardSuit(CardSuitKey key, int value) {
     k = key;

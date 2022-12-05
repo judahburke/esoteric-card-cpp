@@ -1,6 +1,6 @@
 #include "card.h"
 
-using namespace cards;
+using namespace card;
 
 Card::Card(CardRank rank, CardSuit suit)
     : r(rank), s(suit) {}
