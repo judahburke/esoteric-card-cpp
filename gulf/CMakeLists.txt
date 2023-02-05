@@ -15,8 +15,8 @@ add_executable(play-gulf
 		gulf-factory.hpp
 	)
 
-add_subdirectory(roman)
-add_subdirectory(ui)
+# add_subdirectory(roman)
+# add_subdirectory(ui)
 
 target_link_libraries(r2a
 	PRIVATE
